@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom'; // Importation de Link
 
 const Header = () => {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -18,12 +19,12 @@ const Header = () => {
             </div>
             <div id="hidden" style={{ display: isSidebarOpen ? 'flex' : 'none' }}>
                 <a id="closecross" onClick={toggleSidebar}><i className="fa-duotone fa-solid fa-xmark"></i></a>
-                <a href="/home">Accueil</a>
-                <a href="/works">Travaux</a>
-                <a href="/about">À propos</a>
-                <a href="/experiences">Expérience</a>
-                <a href="/documents">Documents</a>
-                <a href="/skills">Compétences</a>
+                <Link to="/home">Accueil</Link> {/* Remplacer href par Link */}
+                <Link to="/works">Travaux</Link> {/* Remplacer href par Link */}
+                <Link to="/about">À propos</Link> {/* Remplacer href par Link */}
+                <Link to="/experiences">Expérience</Link> {/* Remplacer href par Link */}
+                <Link to="/documents">Documents</Link> {/* Remplacer href par Link */}
+                <Link to="/skills">Compétences</Link> {/* Remplacer href par Link */}
             </div>
         </header>
     );
