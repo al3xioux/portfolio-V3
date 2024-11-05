@@ -1,0 +1,31 @@
+/* footer */
+footer {
+    display: flex;
+    height: 5vh;
+}
+
+footer .cale {
+    width: 40%;
+}
+
+footer .social {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.social p {
+    font-size: 3vw;
+    font-family: "poppinslight";
+}
+
+.link {
+    font-size: 4vw;
+    font-family: "poppinsregular";
+}
+
+.link a {
+    padding: 0 8px 0 0;
+    text-decoration: none;
+    color: #262628
+}

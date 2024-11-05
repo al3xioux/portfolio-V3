@@ -1,0 +1,66 @@
+/* .big-title */
+.big-title {
+    padding: 0 0 0 5%;
+    font-family: "poppinslight";
+    line-height: 15vw;
+    font-size: 8vw;
+    text-decoration: underline; 
+    text-decoration-thickness: 3.5px;
+}
+
+/* #presentation */
+#presentation {
+    padding: 0 25px 30px 25px;
+    margin-top: 10%;
+    text-align: justify;
+    font-family: "poppinslight";
+    font-size: 5vw;
+}
+
+/* .bts */
+.bts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bts h3 {
+    font-size: 7vw;
+    padding: 0 0 10px 0;
+    text-decoration: underline;
+    font-family: "poppinsregular";
+}
+
+.bts p {
+    padding: 0 35px 40px 35px;
+    text-align: justify;
+    font-family: "poppinslight";
+}
+
+/* .ipssi */
+.ipssi {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.ipssi h3 {
+    font-size: 7vw;
+    padding: 0 35px 10px 0;
+    text-decoration: underline;
+    font-family: "poppinsregular";
+}
+
+.ipssi p {
+    padding: 0 35px 20px 35px;
+    text-align: justify;
+    font-family: "poppinslight";
+}
+
+/* .separation1 */
+.separation1 {
+    width: 80%;
+    height: 2px;
+    background-color: #262628;
+    margin: 10% 0 8% 10%;
+}

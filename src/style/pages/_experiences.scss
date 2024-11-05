@@ -1,0 +1,46 @@
+/* #title */
+#title {
+    font-size: 10vw;
+    padding: 0 0 40px 5%;
+    text-decoration: underline;
+    font-family: "poppinsregular";
+}
+
+/* .exp */
+.exp {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.exp h3 {
+    padding: 0 0 10px 20px;
+    font-family: "poppinsregular";
+}
+
+.exp section {
+    display: flex;
+    flex-direction: column;
+}
+
+.exp section h4 {
+    padding: 0 0 0 20px;
+    font-family: "poppinsregular";
+}
+
+.exp section p {
+    padding: 0 10px 10px 20px;
+    font-family: "poppinslight";
+}
+
+.exp section .date {
+    font-size: 3.5vw;
+}
+
+/* .separation1 */
+.separation1 {
+    width: 80%;
+    height: 2px;
+    background-color: #262628;
+    margin: 0 0 7px 0;
+}
