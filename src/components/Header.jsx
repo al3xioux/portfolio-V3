@@ -12,6 +12,10 @@ const Header = () => {
         setIsSidebarOpen(!isSidebarOpen);
     };
 
+    const closeSidebar = () => {
+        setIsSidebarOpen(false);
+    };
+
     return (
         <header>
             <div id="header" style={{ display: isSidebarOpen ? 'none' : 'flex' }}>
@@ -19,12 +23,12 @@ const Header = () => {
             </div>
             <div id="hidden" style={{ display: isSidebarOpen ? 'flex' : 'none' }}>
                 <a id="closecross" onClick={toggleSidebar}><i className="fa-duotone fa-solid fa-xmark"></i></a>
-                <Link to="/home">Accueil</Link> {/* Remplacer href par Link */}
-                <Link to="/works">Travaux</Link> {/* Remplacer href par Link */}
-                <Link to="/about">À propos</Link> {/* Remplacer href par Link */}
-                <Link to="/experiences">Expérience</Link> {/* Remplacer href par Link */}
-                <Link to="/documents">Documents</Link> {/* Remplacer href par Link */}
-                <Link to="/skills">Compétences</Link> {/* Remplacer href par Link */}
+                <Link to="/home" onClick={closeSidebar}>Accueil</Link> 
+                <Link to="/works" onClick={closeSidebar}>Travaux</Link> 
+                <Link to="/about" onClick={closeSidebar}>À propos</Link> 
+                <Link to="/experiences" onClick={closeSidebar}>Expérience</Link> 
+                <Link to="/documents" onClick={closeSidebar}>Documents</Link> 
+                <Link to="/skills" onClick={closeSidebar}>Compétences</Link> 
             </div>
         </header>
     );
