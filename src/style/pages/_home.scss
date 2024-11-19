@@ -26,40 +26,34 @@
     padding: 0 0 20px 30px;
     margin-top: 10%;
     font-family: "poppinsregular";
-}
-
-#travaux a {
     color: black;
 }
 
 #documents {
     text-decoration: underline;
-    padding: 0 0 0 60%;
+    padding: 0 0 0 40%;
     font-family: "poppinsregular";
-}
-
-#documents a {
     color: black;
 }
 
 /* .cv */
-.cv {
+.cv-home {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 5%;
 }
 
-.cv h4 {
+.cv-home h4 {
     padding: 0 60% 10px 0;
     font-family: "poppinsregular";
     text-decoration: underline;
 }
 
-.cv section {
-    width: 70%;
-    height: 50vh;
-    background: url(../../../public/bonjour-alexandre-cv-1.png) no-repeat center;
+.cv-home section {
+    width: 80%;
+    height: 60vh;
+    background-image: url(../../../public/bonjour-alexandre-cv-1.png);
     background-size: cover;
     border: 1px solid;
 }

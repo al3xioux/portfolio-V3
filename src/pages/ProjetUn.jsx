@@ -10,6 +10,12 @@ const ProjetUn = () => {
                 <section className='container-img'>
                     <section className='img'></section>
                 </section>
+                <section className='container-img'>
+                    <section className='img'></section>
+                </section>
+                <section className='container-img'>
+                    <section className='img'></section>
+                </section>
 
             </div>
         </Helmet>

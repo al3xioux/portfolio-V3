@@ -8,6 +8,7 @@ import Experiences from './pages/Experiences';
 import Documents from './pages/Documents';
 import Skills from './pages/Skills';
 import ProjetUn from './pages/ProjetUn';
+import VeilleUn from './pages/VeilleUn';
 
 
 const Routers = () => {
@@ -22,6 +23,7 @@ const Routers = () => {
             <Route path="/documents" element={<Documents />} />
             <Route path="/skills" element={<Skills />} />
             <Route path='/projetun' element={<ProjetUn />} />
+            <Route path='/veilleun' element={<VeilleUn />} />
         </Routes>
     );
 };
