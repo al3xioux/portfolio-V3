@@ -6,7 +6,7 @@ const Travaux = () => {
 
             <div className="works-container">
                 <section className="works-section">
-                    <a href='#' target='blank'>
+                    <a href='https://gitlab.com/MaxenceIPSSI/gamehub' target='blank'>
                         <h4>GAMEHUB</h4>
                         <p>site web de tournois e-sportif</p>
                     </a>

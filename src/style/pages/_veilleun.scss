@@ -1,0 +1,77 @@
+/* #title */
+#veilleUn-title {
+    font-size: 9.5vw;
+    padding: 0 0 40px 10px;
+    text-decoration: underline;
+    font-family: "poppinsregular";
+}
+
+.veilleUn {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.veilleUn h3 {
+    padding: 0 0 10px 10px;
+    font-family: "poppinsregular";
+}
+
+.veilleUn .veilleUn-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.veilleUn .veilleUn-text p {
+    padding: 0 20px 10px 20px;
+    font-family: "poppinslight";
+    text-align: justify;
+}
+
+.outils {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.outils h4 {
+    font-family: "poppinsregular";
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    margin-bottom: 3%;
+}
+
+.outils p {
+    font-family: "poppinslight";
+}
+
+@media (min-width: 768px) {
+    
+
+}
+
+@media (min-width: 1024px) {
+
+    #veilleUn-title {
+        font-size: 6vw;
+    }
+
+    .veilleUn h3 {
+        font-size: 2.5vw;
+    }
+
+    .veilleUn .veilleUn-text p {
+        padding: 0 100px 10px 100px;
+        font-size: 1.2vw;
+    }
+
+    .outils h4 {
+        font-size: 1.8vw;
+        margin-bottom: 2%;
+    }
+    
+    .outils p {
+        font-size: 1.3vw;
+    }
+}
