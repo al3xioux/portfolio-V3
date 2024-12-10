@@ -14,7 +14,7 @@
     border-left: 0px;
     border-right: 0px;
     border-bottom: 0px;
-    height: 80px;
+    height: 95px;
     width: 80%;
 }
 
@@ -33,4 +33,38 @@
 .works-section a {
     color: black;
     text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    
+    .works-section {
+        height: 120px;
+        width: 70%;
+    }
+
+    .works-section h4 {
+        font-size: 6vw;
+    }
+
+    .works-section p {
+        font-size: 4vw;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .works-section  {
+        height: 150px;
+        width: 60%;
+        line-height: 5vw;
+
+    }
+
+    .works-section h4 {
+        font-size: 3.5vw;
+    }
+
+    .works-section p {
+        font-size: 1.5vw;
+    }
 }

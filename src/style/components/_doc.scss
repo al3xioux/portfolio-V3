@@ -18,6 +18,7 @@
     background: url(../../../public/bonjour-alexandre-cv-1.png) no-repeat center;
     background-size: cover;
     border: 1px solid;
+    cursor: pointer;
 }
 
 /* .tableau */
@@ -40,4 +41,31 @@
     background: url(../../../public/tableau-e4.png) no-repeat center;
     background-size: cover;
     border: 1px solid;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    
+
+}
+
+@media (min-width: 1024px) {
+
+    .cv h3 {
+        font-size: 2vw;
+    }
+
+    .cv section {
+        width: 40%;
+        height: 100vh;
+    }
+
+    .tableau h3 {
+        font-size: 2vw;
+    }
+
+    .tableau section {
+        width: 50%;
+        height: 100vh;
+    }
 }

@@ -1,8 +1,19 @@
 /* #title */
-#title {
+#documents-title {
     font-size: 10vw;
     padding: 0 0 40px 5%;
     text-decoration: underline;
     font-family: "poppinsregular";
 }
 
+@media (min-width: 768px) {
+    
+
+}
+
+@media (min-width: 1024px) {
+
+    #documents-title {
+        font-size: 6vw;
+    }
+}

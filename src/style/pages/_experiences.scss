@@ -1,5 +1,5 @@
 /* #title */
-#title {
+#experience-title {
     font-size: 10vw;
     padding: 0 0 40px 5%;
     text-decoration: underline;
@@ -43,4 +43,37 @@
     height: 2px;
     background-color: #262628;
     margin: 0 0 7px 0;
+}
+
+@media (min-width: 768px) {
+    
+
+}
+
+@media (min-width: 1024px) {
+
+    #experience-title {
+        font-size: 6vw;
+    }
+
+    .exp {
+        padding: 0 30px 0 30px;
+    }
+
+    .exp h3 {
+        font-size: 3vw;
+    }
+
+    .exp section h4 {
+        font-size: 2vw;
+    }
+
+    .exp section .date {
+        font-size: 2.5vw;
+    }
+
+    .exp section p {
+        font-size: 1.5vw;
+    }
+    
 }

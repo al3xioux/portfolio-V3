@@ -7,7 +7,6 @@ import About from './pages/About';
 import Experiences from './pages/Experiences';
 import Documents from './pages/Documents';
 import Skills from './pages/Skills';
-import ProjetUn from './pages/ProjetUn';
 import VeilleUn from './pages/VeilleUn';
 
 
@@ -22,7 +21,6 @@ const Routers = () => {
             <Route path="/experiences" element={<Experiences />} />
             <Route path="/documents" element={<Documents />} />
             <Route path="/skills" element={<Skills />} />
-            <Route path='/projetun' element={<ProjetUn />} />
             <Route path='/veilleun' element={<VeilleUn />} />
         </Routes>
     );

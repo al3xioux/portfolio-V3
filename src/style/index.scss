@@ -1,19 +1,18 @@
-@import "app";
+@use "app";
 
 /* Pages */
-@import "pages/home";
-@import "pages/works";
-@import "pages/about";
-@import "pages/experiences";
-@import "pages/documents";
-@import "pages/skills";
-@import "pages/projetun";
-@import "pages/veilleun";
+@use "pages/home";
+@use "pages/works";
+@use "pages/about";
+@use "pages/experiences";
+@use "pages/documents";
+@use "pages/skills";
+@use "pages/veilleun";
 
 /* Components */
-@import "components/header";
-@import "components/footer";
-@import "components/travaux";
-@import "components/doc";
-@import "components/documentation";
-@import "components/veille";
+@use "components/header";
+@use "components/footer";
+@use "components/travaux";
+@use "components/doc";
+@use "components/documentation";
+@use "components/veille";

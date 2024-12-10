@@ -4,7 +4,7 @@ import Helmet from '../components/Helmet';
 const Experiences = () => {
     return (
         <Helmet title="Experiences" className='experiences'>
-            <h2 id="title">Expérience</h2>
+            <h2 id="experience-title">Expérience</h2>
 
             <div className="exp">
                 <h3>Stage</h3>

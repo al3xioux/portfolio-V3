@@ -42,3 +42,14 @@ main {
 #closecross {
     align-self: flex-end; 
 }
+
+@media (min-width: 768px) {
+    #header {
+        font-size: 5vw;
+    }
+
+    #hidden a {
+        font-size: 5.2vw;
+    }
+
+}

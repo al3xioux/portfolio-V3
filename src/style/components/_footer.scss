@@ -29,3 +29,29 @@ footer .social {
     text-decoration: none;
     color: #262628
 }
+
+@media (min-width: 768px) {
+
+    footer .cale {
+        width: 60%;
+    }
+    
+    footer .social {
+        width: 40%;
+    }
+
+    .social p {
+        font-size: 1.5vw;
+    }
+    
+    .link {
+        font-size: 2.5vw;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    
+
+
+}

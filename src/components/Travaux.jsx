@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const Travaux = () => {
     return (
@@ -7,19 +6,22 @@ const Travaux = () => {
 
             <div className="works-container">
                 <section className="works-section">
-                    <Link to='/projetun'>
+                    <a href='#' target='blank'>
                         <h4>GAMEHUB</h4>
                         <p>site web de tournois e-sportif</p>
-                    </Link>
-                        
+                    </a>
                 </section>
                 <section className="works-section">
-                    <h4>ZQSD</h4>
-                    <p>site web de paris e-sportif</p>
+                    <a href='https://github.com/al3xioux/mind_website' target='blank'>
+                        <h4>Mind Technologies</h4>
+                        <p>Refonte du site web de mon stage</p>
+                    </a>
                 </section>
                 <section className="works-section">
-                    <h4>BIBLIO V2</h4>
-                    <p>site web d'une bibliothèque</p>
+                    <a href='https://github.com/al3xioux/bibliotheque-v2' target='blank'>
+                        <h4>BIBLIO V2</h4>
+                        <p>site web d'une bibliothèque fictive</p>
+                    </a>
                 </section>
                 <section className="works-section"></section>
             </div>

@@ -64,3 +64,41 @@
     background-color: #262628;
     margin: 10% 0 8% 10%;
 }
+
+@media (min-width: 768px) {
+    
+
+}
+
+@media (min-width: 1024px) {
+
+    .big-title {
+        font-size: 6vw;
+        text-underline-offset: 3px;
+    }
+
+    #presentation {
+        margin-top: 5%;
+        padding: 0 125px 30px 125px;
+        font-size: 2.5vw;
+    }
+
+    .bts h3 {
+        font-size: 4vw;
+    }
+
+    .bts p {
+        padding: 0 250px 40px 250px;
+        font-size: 1.2vw;
+    }
+
+    .ipssi h3 {
+        font-size: 4vw;
+        padding: 0 200px 10px 0;
+    }
+
+    .ipssi p {
+        padding: 0 250px 40px 250px;
+        font-size: 1.2vw;
+    }
+}

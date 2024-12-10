@@ -7,7 +7,7 @@ import Documentation from '../components/Documentation';
 const Documents = () => {
     return (
         <Helmet title="Documents" className='documents'>
-            <h2 id="title">Documentation</h2>
+            <h2 id="documents-title">Documentation</h2>
             <Doc />
             <Documentation />
         </Helmet>

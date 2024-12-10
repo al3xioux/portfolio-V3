@@ -4,7 +4,7 @@ import Helmet from '../components/Helmet';
 const Skills = () => {
     return (
         <Helmet title="Compétences" className='skills'>
-            <h2 id="title">Compétences</h2>
+            <h2 id="skills-title">Compétences</h2>
 
             <div class="skills">
                 <section>
@@ -20,7 +20,17 @@ const Skills = () => {
                 </section>
 
                 <section>
-                    <h3>MAINTENANCE</h3>
+                    <h3>Base de données</h3>
+                    <div class="separation1"></div>
+                    <section class="skills-name">
+                        <p>SQL</p>
+                        <p>MySQL</p>
+                        <p>Un autre truc</p>
+                    </section>
+                </section>
+
+                <section>
+                    <h3>Supervision</h3>
                     <div class="separation1"></div>
                     <section class="skills-name">
                         <p>GLPI</p>
@@ -28,7 +38,7 @@ const Skills = () => {
                 </section>
 
                 <section>
-                    <h3>AUTRES</h3>
+                    <h3>Autres</h3>
                     <div class="separation1"></div>
                     <section class="skills-name">
                         <p>Figma</p>

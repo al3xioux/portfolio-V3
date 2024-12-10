@@ -5,7 +5,7 @@ import Travaux from '../components/Travaux';
 const Works = () => {
     return (
         <Helmet title="Travaux" className='works'>
-            <h2 id='title'>Travaux</h2>
+            <h2 id='works-title'>Travaux</h2>
             <Travaux/>
         </Helmet>
     );
