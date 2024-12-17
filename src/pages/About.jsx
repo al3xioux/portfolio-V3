@@ -8,7 +8,7 @@ const About = () => {
                 <h2>Alexandre</h2>
                 <h2>Bonjour</h2>
             </div>
-            <p id="presentation">Mon but en tant que développeur est de pouvoir creer ce que les autres ne feront pas. Je prévois de poursuivre mes études en bachelor pour approfondir et renforcer mes compétences.</p>
+            <p id="presentation">Mon objectif, en tant que développeur, est de pouvoir créer ce que les autres ne feront pas. Je prévois de poursuivre mes études en bachelor afin d’approfondir et de renforcer mes compétences.</p>
 
             <div className="bts">
                 <h3>BTS SIO SLAM</h3>

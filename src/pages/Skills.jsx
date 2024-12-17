@@ -25,7 +25,6 @@ const Skills = () => {
                     <section className="skills-name">
                         <p>SQL</p>
                         <p>MySQL</p>
-                        <p>Un autre truc</p>
                     </section>
                 </section>
 
