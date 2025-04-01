@@ -5,10 +5,14 @@ const Documentation = () => {
     <div className='documentation'>
       <h3>Documentation</h3>
       <div className='documentation-section'>
-        <p onClick={() => window.location.href = '/doc-gamehub.zip'}><i class="fa-solid fa-folder"></i>  GAMEHUB</p>
-        <p onClick={() => window.location.href = '/doc-mind.zip'}><i class="fa-solid fa-folder"></i>  Mind Technologies</p>
-        <p onClick={() => window.location.href = '/doc-biblio.zip'}><i class="fa-solid fa-folder"></i>  BIBLIO V2</p>
-        <p onClick={() => window.location.href = '/doc-glpi.zip'}><i class="fa-solid fa-folder"></i>  GLPI</p>
+        <p onClick={() => window.open('/gamehub.pdf')}><i class="fa-solid fa-folder"></i>  GAMEHUB</p>
+        <p onClick={() => window.open('/zqsd.pdf')}><i class="fa-solid fa-folder"></i>  ZQSD</p>
+        <p onClick={() => window.open('/projet_bibliotheque.pdf')}><i class="fa-solid fa-folder"></i>  BIBLIO V2</p>
+        <p onClick={() => window.open('/inventaire.pdf')}><i class="fa-solid fa-folder"></i>  Inventaire</p>
+        <p onClick={() => window.open('/mind_techno.pdf')}><i class="fa-solid fa-folder"></i>  Mind Techno</p>
+        <p onClick={() => window.open('/boxy.pdf')}><i class="fa-solid fa-folder"></i>  Boxy</p>
+        <p onClick={() => window.open('/bot_merch.pdf')}><i class="fa-solid fa-folder"></i>  Bot Merch</p>
+
       </div>
     </div>
   )

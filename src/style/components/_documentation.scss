@@ -10,12 +10,13 @@
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 5%;
+    align-items: start;
 
 }
 
 .documentation-section p {
-    width: 50%;
-    text-align: center;
+    margin-left: 10%;
+    width: 40%;
     font-family: "poppinsregular";
     line-height: 30px;
     cursor: pointer;

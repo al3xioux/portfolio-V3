@@ -13,7 +13,6 @@ const Doc = () => {
                 <section onClick={() => window.open('/tableau-e4.pdf')}></section>
             </div>
         </>
-
     )
 }
 

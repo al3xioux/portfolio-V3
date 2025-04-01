@@ -8,12 +8,12 @@ const Veille = () => {
             <div className="works-container">
                 <section className="veille-section">
                     <Link to='/veilleun'>
-                        <h4>L'IA et les jeux vidéo</h4>
+                        <h4>LangGraph </h4>
                     </Link>
                 </section>
                 <section className="veille-section">
                     <Link to='/veilledeux'>
-                        <h4>Le serveur meshing</h4>
+                        <h4>L’IA dans la création web</h4>
                     </Link>
                 </section>
                 <section className="veille-section"></section>

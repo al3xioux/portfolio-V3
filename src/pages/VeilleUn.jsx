@@ -3,30 +3,30 @@ import Helmet from "../components/Helmet";
 
 const VeilleUn = () => {
     return (
-        <Helmet title="L'IA / jeux vidéo" className='veille1'>
-            <h2 id="veilleUn-title">L'IA et les jeux vidéo</h2>
+        <Helmet title="LangGraph" className='veille1'>
+            <h2 id="veilleUn-title">LangGraph : Une nouvelle génération d’agents IA</h2>
 
             <div className="veilleUn">
                 <section className="veilleUn-text">
-                    <h3>I. Personnalisation et immersion grâce à l’IA</h3>
-                    <p>L’intelligence artificielle révolutionne les expériences de jeu en permettant une personnalisation avancée. Les jeux peuvent analyser les comportements des joueurs pour ajuster la difficulté, les énigmes ou les défis en temps réel. Cette adaptabilité rend chaque partie unique, offrant une immersion plus profonde et répondant aux préférences individuelles. De plus, l’IA peut suggérer des contenus additionnels ou générer des scénarios adaptés, renforçant l’engagement et la fidélité des joueurs.</p>
+                    <h3>I. Orchestration intelligente et personnalisée avec LangChain</h3>
+                    <p>LangChain redéfinit la manière dont les développeurs conçoivent des applications basées sur des modèles de langage (LLM). En intégrant des chains (chaînes d’actions), des tools (outils externes) et des mémoires contextuelles, LangChain permet de créer des agents adaptatifs capables de raisonner, planifier et personnaliser les réponses. Cette modularité offre une expérience utilisateur plus fluide, adaptée aux besoins spécifiques, qu’il s’agisse de chatbots, d’outils d’analyse ou de moteurs de recommandation. Grâce à LangChain, les LLM ne sont plus de simples générateurs de texte, mais des agents autonomes interagissant de façon dynamique avec leur environnement.</p>
                     <div className="separation1"></div>
                 </section>
 
                 <section className="veilleUn-text">
-                    <h3>II. Création et optimisation des contenus par l’IA générative</h3>
-                    <p>Grâce à l’IA générative et au machine learning, les développeurs peuvent automatiser la création de contenus tels que les niveaux, les personnages ou les paysages. Cela permet de proposer des environnements variés et détaillés, tout en réduisant le temps et les coûts de production. L’IA est également utilisée pour optimiser les performances graphiques en temps réel, garantissant une expérience fluide même sur des configurations matérielles modestes. Ces innovations permettent de repousser les limites créatives tout en améliorant l’accessibilité des jeux.</p>
+                    <h3>II. LangGraph : la puissance des flux contrôlés pour les agents LLM</h3>
+                    <p>LangGraph, basé sur le paradigme des graphes d'état (state machines), apporte une structure claire et visuelle à l'exécution des agents LangChain. Il permet de définir des flux de décisions complexes, avec des boucles, des conditions et des états partagés entre les nœuds. Contrairement aux chaînes linéaires classiques, LangGraph offre un contrôle fin sur la logique et la persistance des agents. Cela rend possible la création d'applications robustes, telles que des assistants multi-étapes, des workflows de support client ou des outils d'automatisation avec mémoire longue durée. En un mot, LangGraph industrialise l’orchestration des LLM, en garantissant fiabilité et maintenabilité.</p>
                     <div className="separation1"></div>
                 </section>
 
                 <section className="veilleUn-text">
-                    <h3>III. Amélioration des interactions et compétitions e-sportives</h3>
-                    <p>L’IA ne se limite pas aux expériences des joueurs : elle enrichit également les compétitions e-sportives. Elle améliore les comportements des adversaires contrôlés par ordinateur, les rendant plus stratégiques et imprévisibles. En parallèle, des outils d’analyse alimentés par l’IA offrent aux spectateurs des statistiques détaillées et des prédictions en direct, rendant les compétitions plus captivantes. Cette intégration transforme l’e-sport en un spectacle interactif et dynamique, bénéfique pour les joueurs et les fans.</p>
+                    <h3>III. Vers des agents multi-fonctions, collaboratifs et scalables</h3>
+                    <p>La combinaison de LangChain et LangGraph ouvre la voie à des systèmes intelligents distribués, où plusieurs agents peuvent collaborer, partager des ressources ou même se corriger mutuellement. Des projets comme LangGraph Cloud ou la collaboration avec des frameworks comme OpenAI Functions ou ReAct renforcent cette vision. Ces technologies permettent de concevoir des applications scalables, capables d'exécuter des tâches complexes avec une supervision minimale. Pour les entreprises, c’est l’opportunité de créer des solutions sur mesure mêlant intelligence artificielle, logique métier et automatisation, tout en gardant le contrôle sur le comportement des agents.</p>
                 </section>
 
                 <section className="outils">
                     <h4>Outils de veille</h4>
-                    <p>Jeuxvideo.com  -  Google Alerte</p>
+                    <p>langchain.com  -  Google Alerte - ChatGPT</p>
                 </section>
             </div>
 

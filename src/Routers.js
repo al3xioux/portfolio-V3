@@ -8,7 +8,7 @@ import Experiences from './pages/Experiences';
 import Documents from './pages/Documents';
 import Skills from './pages/Skills';
 import VeilleUn from './pages/VeilleUn';
-
+import VeilleDeux from './pages/VeilleDeux';
 
 const Routers = () => {
     return (
@@ -22,6 +22,7 @@ const Routers = () => {
             <Route path="/documents" element={<Documents />} />
             <Route path="/skills" element={<Skills />} />
             <Route path='/veilleun' element={<VeilleUn />} />
+            <Route path='/veilledeux' element={<VeilleDeux />} />
         </Routes>
     );
 };
