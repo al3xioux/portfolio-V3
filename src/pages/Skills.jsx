@@ -16,23 +16,17 @@ const Skills = () => {
                         <p>PHP</p>
                         <p>Javascript</p>
                         <p>React</p>
-                    </section>
-                </section>
-
-                <section>
-                    <h3>Base de données</h3>
-                    <div className="separation1"></div>
-                    <section className="skills-name">
                         <p>SQL</p>
                         <p>MySQL</p>
                     </section>
                 </section>
 
                 <section>
-                    <h3>Supervision</h3>
+                    <h3>Intelligence artificielle</h3>
                     <div className="separation1"></div>
                     <section className="skills-name">
-                        <p>GLPI</p>
+                        <p>LangGraph</p>
+                        <p>OpenAI-sdk</p>
                     </section>
                 </section>
 
@@ -41,7 +35,8 @@ const Skills = () => {
                     <div className="separation1"></div>
                     <section className="skills-name">
                         <p>Figma</p>
-                        <p>Git</p>
+                        <p>Photoshop</p>
+                        <p>GitHub</p>
                     </section>
                 </section>
 

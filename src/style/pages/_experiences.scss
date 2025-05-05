@@ -29,8 +29,9 @@
 }
 
 .exp section p {
-    padding: 0 10px 10px 20px;
+    padding: 0 100px 10px 20px;
     font-family: "poppinslight";
+    text-align: justify;
 }
 
 .exp section .date {
@@ -45,10 +46,7 @@
     margin: 0 0 7px 0;
 }
 
-@media (min-width: 768px) {
-    
-
-}
+@media (min-width: 768px) {}
 
 @media (min-width: 1024px) {
 
@@ -75,5 +73,5 @@
     .exp section p {
         font-size: 1.5vw;
     }
-    
+
 }

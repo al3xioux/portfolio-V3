@@ -46,15 +46,12 @@
     font-family: "poppinslight";
 }
 
-@media (min-width: 768px) {
-    
-
-}
+@media (min-width: 768px) {}
 
 @media (min-width: 1024px) {
 
     #veilleDeux-title {
-        font-size: 6vw;
+        font-size: 4vw;
     }
 
     .veilleDeux h3 {
@@ -70,7 +67,7 @@
         font-size: 1.8vw;
         margin-bottom: 2%;
     }
-    
+
     .outils p {
         font-size: 1.3vw;
     }

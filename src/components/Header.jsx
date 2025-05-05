@@ -12,6 +12,7 @@ const Header = () => {
     }, [isSidebarOpen]);
 
     const toggleSidebar = () => {
+        window.scrollTo(0, 0);
         setIsSidebarOpen(!isSidebarOpen);
     };
 
@@ -54,11 +55,11 @@ const Header = () => {
             <div id="header" style={{ display: isSidebarOpen ? 'none' : 'flex' }}>
                 <a onClick={toggleSidebar}><i className="fa-solid fa-bars"></i></a>
             </div>
-            <div 
-                id="hidden" 
-                style={{ 
-                    display: isSidebarOpen ? 'flex' : 'none', 
-                    position: 'relative', 
+            <div
+                id="hidden"
+                style={{
+                    display: isSidebarOpen ? 'flex' : 'none',
+                    position: 'relative',
                     overflow: 'hidden',
                     width: '100%',
                     height: '100vh'
@@ -66,16 +67,16 @@ const Header = () => {
                 onMouseMove={handleMouseMove}
             >
                 <a id="closecross" onClick={toggleSidebar}><i className="fa-duotone fa-solid fa-xmark"></i></a>
-                <Link to="/home" onClick={closeSidebar}>Accueil</Link> 
-                <Link to="/works" onClick={closeSidebar}>Travaux</Link> 
-                <Link to="/about" onClick={closeSidebar}>À propos</Link> 
-                <Link to="/experiences" onClick={closeSidebar}>Expérience</Link> 
-                <Link to="/documents" onClick={closeSidebar}>Documents</Link> 
-                <Link to="/skills" onClick={closeSidebar}>Compétences</Link> 
+                <Link to="/home" onClick={closeSidebar}>Accueil</Link>
+                <Link to="/works" onClick={closeSidebar}>Travaux</Link>
+                <Link to="/about" onClick={closeSidebar}>À propos</Link>
+                <Link to="/experiences" onClick={closeSidebar}>Expérience</Link>
+                <Link to="/documents" onClick={closeSidebar}>Documents</Link>
+                <Link to="/skills" onClick={closeSidebar}>Compétences</Link>
 
                 {/* Point blanc qui suit la souris avec un retard (lerp) */}
                 {isSidebarOpen && (
-                    <div 
+                    <div
                         style={{
                             position: 'fixed',
                             top: mousePos.y,

@@ -22,7 +22,7 @@ const Experiences = () => {
                 <section>
                     <h4>Ahead Digital</h4>
                     <p className="date">Septembre 2024 - Juillet 2025</p>
-                    <p>Je suis actuellement en alternance où je travaille dans l'intelligence artificielle, plus particulièrement avec l'API ChatGPT. Mais aussi avec un nouvel outil appelé LangGraph pour gérer plusieurs agents en même temps.</p>
+                    <p>Actuellement en alternance chez Ahead Digital, j’ai eu l’opportunité de développer mes compétences dans la création de systèmes multi-agents, notamment grâce à l’outil LangGraph ainsi qu’à l’utilisation de diverses API telles que celles d’OpenAI ou de Google.</p>
                 </section>
             </div>
         </Helmet>

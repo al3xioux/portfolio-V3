@@ -1,4 +1,3 @@
-
 .big-title-home {
     padding: 0 0 0 30px;
     font-family: "poppinslight";
@@ -11,6 +10,23 @@
 
 .big-title-home h1 {
     font-size: 11vw;
+}
+
+.big-title-home h2 span,
+.big-title-home h1 span {
+    opacity: 0;
+    display: inline-block;
+    animation: typewriter 0.1s forwards;
+}
+
+@keyframes typewriter {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 #presentation-home {
@@ -54,12 +70,12 @@
     width: 80%;
     height: 55vh;
     background-image: url(../../../public/bonjour-alexandre-cv-1.png);
-    background-size:cover;
+    background-size: cover;
     border: 1px solid;
 }
 
 @media (min-width: 768px) {
-    
+
     .big-title-home {
         line-height: 9vw;
     }
@@ -67,7 +83,7 @@
     .big-title-home h2 {
         font-size: 8vw;
     }
-    
+
     .big-title-home h1 {
         font-size: 10vw;
     }
@@ -94,7 +110,7 @@
 }
 
 @media (min-width: 1024px) {
-    
+
     .big-title-home {
         line-height: 8vw;
     }
@@ -102,7 +118,7 @@
     .big-title-home h2 {
         font-size: 6vw;
     }
-    
+
     .big-title-home h1 {
         font-size: 8vw;
     }
